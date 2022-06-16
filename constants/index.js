@@ -1,0 +1,4 @@
+const WHITELIST_CONTRACT_ADDRESS = "0xA6991A520A35C47635Fa6071728b0EFd3cB712F8";
+const METADATA_URL = "nft-collection-b9oky7bnz-tamarawguy.vercel.app";
+
+module.exports = { WHITELIST_CONTRACT_ADDRESS, METADATA_URL };
