@@ -225,7 +225,7 @@ export default function Home() {
       return <button className={styles.button}>Loading...</button>;
     }
 
-    if (iwOwner && !presaleStarted) {
+    if (isOwner && !presaleStarted) {
       return (
         <button className={styles.button} onClick={() => startPresale()}>
           Start presale!
